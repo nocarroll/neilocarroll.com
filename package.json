@@ -4,7 +4,8 @@
   "description": "Personal website for Neil O'Carroll",
   "main": "app.js",
   "scripts": {
-    "build": "rm -rf dist/* && cp -r src/* dist/"
+    "build": "rm -rf dist/* && cp -r src/* dist/",
+    "deploy": "aws s3 sync ./dist/ s3://neilocarroll.com --delete"
   },
   "repository": {
     "type": "git",
