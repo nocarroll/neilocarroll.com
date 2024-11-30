@@ -49,6 +49,7 @@ const buzzwords = [
   'unit testing',
   'TDD',
   'Cypress Cloud',
+  'automated testing',
   'Lighthouse',
   'A11y',
   'DRY and WET',
@@ -73,7 +74,17 @@ const buzzwords = [
   'husky',
   'lint-staged',
   'ESLint',
-  'Prettier'
+  'Prettier',
+  'memoization',
+  'virtualization',
+  'debouncing',
+  'lazy-loading',
+  'transpilers',
+  'Largest Contentful Paint',
+  'First Contentful Paint',
+  'tree shaking',
+  'code splitting',
+  'webpack plugins'
 ];
 
 const body = document.body;
