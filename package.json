@@ -1,0 +1,19 @@
+{
+  "name": "neilocarroll.com",
+  "version": "1.0.0",
+  "description": "Personal website for Neil O'Carroll",
+  "main": "app.js",
+  "scripts": {
+    "build": "rm -rf dist/* && cp -r src/* dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nocarroll/neilocarroll.com.git"
+  },
+  "author": "nocarroll",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nocarroll/neilocarroll.com/issues"
+  },
+  "homepage": "https://github.com/nocarroll/neilocarroll.com#readme"
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hi, Neil here! I'm a software engineer in Ireland working on design systems, release strategies, and performant web applications.">
+  <!-- Facebook Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https:neilocarroll.com" />
+  <meta property="og:title" content="Neil O'Carroll">
+  <meta property="og:description" content="Hi, Neil here! I'm a software engineer in Ireland working on design systems, release strategies, and performant web applications.">
+  <meta property="og:image" content="https://neilocarroll.com/assets/me_yellow.jpg" />
+  
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:domain" value="rhttps:neilocarroll.com" />
+  <meta property="twitter:title" value="Neil O'Carroll">
+  <meta property="twitter:description" content="Hi, Neil here! I'm a software engineer in Ireland working on design systems, release strategies, and performant web applications.">
+  <meta name="twitter:image" content="https://neilocarroll.com/assets/me_yellow.jpg" />
+  
+  <!-- Default Stuff -->
+  <title>Neil O'Carroll</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="./app.js"></script>
+</head>
+<body id="top">
+  <header>
+    <section></section>
+    <svg id="lightswitch" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="5" fill="none"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </header>
+  <div class="screen">
+    <section id="hero">
+      <p>
+        Hi, <a href="#about">Neil</a> here!
+      </p>
+      <p>
+        I have over 9 years of experience as a software engineer in Ireland working on <a href="#design-systems">design systems</a>, <a href="#release-strategies">release strategies</a>, and <a href="#performant-web-applications">performant web applications</a>
+      </p>
+    </section>
+    <main>
+      <img id="logo" src="./assets/me_yellow.jpg" alt="Profile picture with edited image on yellow background" width="120" height="120" loading="lazy">
+      <section>
+        <p>
+          I'm always interested in growing my network and talking shop! <br />
+          Connect with me on <a href="https://www.linkedin.com/in/neilocarroll/" target="_blank" rel="noopener noreferrer">LinkedIn</a> and I can tell you everything I know about <mark id="buzzword">JavaScript</mark>
+        </p>
+      </section>
+    </main>
+  </div>
+  <div class="screen">
+    <main class="copy">
+      <section>
+        <h1 id="work">Work</h1>
+        <h4 id="design-systems">Design Systems</h4>
+        <p>I have extensive experience building component design systems for SaaS frontends on the web. In both <a href="https://www.fieldaware.com/" target="_blank" rel="noopener noreferrer">FieldAware</a> and <a href="https://www.valid8me.com/" target="_blank" rel="noopener noreferrer">valid8me</a>, I have worked closely with the product owners and the UX leads to introduce a custom <a href="https://storybook.js.org/" target="_blank" rel="noopener noreferrer">StorybookJS</a> component library to the frontend architecture using <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">ReactJS</a> and <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">VueJS</a>, respectfully.</p>
+        <p>
+          In both cases, the rollout of the component library to our production applications resulted in ~80% fewer frontend bugs in new features and a 50% decrease in the development time for tickets.
+        </p>
+        <p>
+          In my experience, there is no other single enhancement that a feature delivery team can make to their process that can impact the whole organistion. 
+        </p>
+        <h4 id="release-strategies">Release Strategies</h4>
+        <p>
+          Over the past 18 months, I've focused on making feature releases at valid8Me faster, safer, and simpler. Fewer bugs, less stress, near-zero rollbacks, and happier product owners are the metrics that have defined success for this effort.
+        </p>
+        <p>
+          Achieving these goals meant digging into every aspect of the <a href="https://aws.amazon.com/what-is/sdlc/" target="_blank" rel="noopener noreferrer">SDLC</a>: from improving ticket structures and refining <a href="https://www.atlassian.com/git/tutorials/comparing-workflows" target="_blank" rel="noopener noreferrer">Git workflows</a> to fine-tuning AWS permissions and setting up GitHub automations. Such wide-reaching challenges can feel overwhelming, but the payoff has been worth it.
+        </p>
+        <p>
+          As a team, we've transformed "release hell" into "release heaven." Along the way, I picked up just enough DevOps know-how to make their team nervous when I open a PR. 😉
+        </p>        
+        <h4 id="performant-web-applications">Performant Web Applications</h4>
+        <p>Is there anything more satisfying than spotting an unused nested object in a JSON payload and promptly removing it? Of course there isn't!</p>
+        <p>I love tackling tough web performance challenges with my team. From optimizing network requests and perfecting <a href="https://web.dev/articles/fcp#what-is-fcp" target="_blank" rel="noopener noreferrer">FCP</a>/<a href="https://web.dev/articles/lcp#what-is-lcp" target="_blank" rel="noopener noreferrer">LCP</a> benchmarks to implementing <a href="https://web.dev/articles/code-splitting-suspense?hl=en" target="_blank" rel="noopener noreferrer">lazy loading</a>, <a href="https://web.dev/articles/virtualize-long-lists-react-window?hl=en" target="_blank" rel="noopener noreferrer">virtualization</a>, <a href="https://www.freecodecamp.org/news/javascript-debounce-example/" target="_blank" rel="noopener noreferrer">debouncing</a>, <a href="https://en.wikipedia.org/wiki/Memoization#:~:text=In%20computing%2C%20memoization%20or%20memoisation,the%20same%20inputs%20occur%20again." target="_blank" rel="noopener noreferrer">memoization</a>, <a href="https://v3.vitejs.dev/guide/build.html#chunking-strategy" target="_blank" rel="noopener noreferrer">code splitting</a>, and <a href="https://webpack.js.org/guides/tree-shaking/" target="_blank" rel="noopener noreferrer">tree shaking</a>—I'm all in on faster and lighter web UIs.</p>
+        <p>Moreover, I take great pleasure in sharing learnings from these efforts among the team and guiding junior developers to take on the same challenges in our applications.</p>
+      </section>
+    </main>
+  </div>
+  <div class="screen">
+    <main class="copy">
+      <section>
+        <h1 id="about">About Me</h1>
+        <p>I live and work in beautiful Cork City in Ireland, having previously spent a number of years in Dublin.</p>
+        <p>My journey into IT took a non-traditional path, shaped by a diverse educational background. Along the way, I studied language, film, music, and multimedia—skills I now apply in surprising and practical ways in the software industry!</p>
+        <p>Outside of work, I spend a lot of my free time playing music and I categorise myself as a hardworking hobbyist! I recently took some time off to play guitar on a short tour in Germany.</p>
+        <figure>
+          <img loading="lazy" src="./assets/me_guitar.JPG" alt="A picture of me playing guitar" width="600px">
+          <figcaption>That's me on the left. Wunderbar!</figcaption>
+        </figure>
+        <p>For 2025, I'm focussing on expanding my influence in the development community—writing, contributing to open source, and connecting beyond my current network.</p>
+      </section>
+    </main>
+  </div>
+  <footer>
+    <a href="#top">Back to top</a>
+  </footer>
+</body>
+</html>
